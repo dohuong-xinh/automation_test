@@ -7,4 +7,4 @@ console.log(x + " la so chẵn")
 else
 {
 console.log(x + " la so le")
-};
+}
