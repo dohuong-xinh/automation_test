@@ -1,4 +1,0 @@
-git init: Khởi tạo một repository Git mới trong thư mục hiện tại. Dùng khi bắt đầu 1 dự án mới muốn quản lý code bằng git
-git add <file_name>: Thêm một file cụ thể vào vùng staging (chuẩn bị commit).
-git add . : Thêm tất cả các file đã thay đổi trong thư mục hiện tại vào staging. Bao gồm file mới, file đã sửa, file đã xóa.
-git commit -m "message":Lưu lại (commit) các thay đổi đã được đưa vào staging. "message" là mô tả ngắn gọn về thay đổi bạn đã thực hiện.
