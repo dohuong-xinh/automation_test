@@ -1,0 +1,27 @@
+a. tạo 3 file: file 1, file 2, file 3
+- working directory: file1, file 2, file 3
+- staging: none
+- repository: none
+b. chạy lệnh git init
+- Chỉ khởi tạo git mà không ảnh hưởng file
+- working directory: file1, file2, file 3
+- staging: none
+- repository: none
+c. git commit -m "init project"
+   có thể lỗi do chưa chạy git add nhưng không biết lỗi gì do bài note là không chạy thử trên máy
+   báo lỗi và không thay đổi gì
+d. git add file 1
+- thêm file1 lên staging
+- working directory: file1, file2, file3
+- staging: file1
+- repository: none
+e. git commmit -m "add file1"
+- commit file1 vào repository
+- working directory: file1, file2, file3
+- staging: none
+- repository: file 1
+f. git commit -m "add file"
+- không có gì thay đổi do staging đang không có file nào vì đã đẩy lên hết ở bước [e]
+- working directory: file1, file2, file3
+- staging: none
+- repository: file 1
