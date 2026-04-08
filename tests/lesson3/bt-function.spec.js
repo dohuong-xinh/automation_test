@@ -27,5 +27,7 @@ console.log(getTopStudents(students, threshold))
 
 //bai 4
 const calculateInterest = function (principal, rate, years){
-return principal + principal * rate * years / 100}
-console.log(calculateInterest(1000, 5, 2))
+const total = principal + principal * rate * years / 100;
+return {total};
+}
+console.log(calculateInterest(1000, 5, 2).total)
