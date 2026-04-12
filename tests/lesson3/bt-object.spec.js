@@ -1,5 +1,5 @@
 //bai 1
-const car = {"make": "Toyota", "model": "Corolla", "year" : "2021"};
+const car = {"make": "Toyota", "model": "Corolla", "year" : 2021};
 console.log(car.year)
 
 //bai 2
@@ -35,7 +35,7 @@ bike.color = "Pink"
 console.log(bike)
 
 //bai 6
-const employee = {"name": "Huongxinh", "age": "20"}
+const employee = {"name": "Huongxinh", "age": 20}
 delete employee.age
 console.log(employee)
 

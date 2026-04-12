@@ -20,14 +20,13 @@ console.log(findMin(15, 10, 14))
     {name: "Chau", score: 7}
     ]
 const getTopStudents = function(students, threshold){
-    return students.filter(students => students.score >= threshold);
-
+    return students.filter(student => student.score >= threshold).map(student => student.name);
 }
 console.log(getTopStudents(students, threshold))
 
 //bai 4
 const calculateInterest = function (principal, rate, years){
 const total = principal + principal * rate * years / 100;
-return {total};
+return total;
 }
-console.log(calculateInterest(1000, 5, 2).total)
+console.log(calculateInterest(1000, 5, 2))
